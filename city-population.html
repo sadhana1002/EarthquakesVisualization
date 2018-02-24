@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>City Population</title>
+
+  <!-- Leaflet CSS & JS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
+
+  <!-- d3 JavaScript -->
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/superhero/bootstrap.min.css">
+  <!-- Our CSS -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+  
+</head>
+
+<body>
+  <div class="jumbotron text-center bg-light text-warning" style="height:30%;">
+    <h3>All Earthquakes from the Past 7 Days</h3>
+    <p style="font-size:14px;margin-left:150px;margin-right:150px;">Below map represents earthquakes from the past week, collected by the 
+      <a href="http://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php">USGS GeoJSON Feed page </a>. 
+      Tectonic plate boundaries are represented by the red line in the graph.
+      Earthquakes are represented by circles, the color and size of the circle represents the magnitude. 
+      Darker the color and Larger the circle implies higher the magnitude of the earthquake. 
+      Clicking on the Earthquake points, shows the place, magnitude and status of the Earthquake.
+      <br>
+    </p>
+  </div>
+  
+      <div id="map" style="margin:20px;"></div>
+ 
+  <!-- The div where we will inject our map -->
+  
+
+  <!-- Our JS -->
+  <script type="text/javascript" src="access_token.js"></script>
+  <script type="text/javascript" src="logic.js"></script>
+</body>
+</html>
