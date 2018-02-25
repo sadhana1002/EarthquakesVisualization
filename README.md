@@ -6,7 +6,8 @@ Below map represents earthquakes from the past week, collected by the
       Earthquakes are represented by circles, the color and size of the circle represents the magnitude. 
       Darker the color and Larger the circle implies higher the magnitude of the earthquake. 
       Clicking on the Earthquake points, shows the place, magnitude and status of the Earthquake.
-      
       Check out the live website here  <a href="https://sadhana1002.github.io/EarthquakesVisualization/">Earthquake dashboard </a>.  
+      
+      
 
 ![earthquakes map visualization](https://github.com/sadhana1002/EarthquakesVisualization/blob/master/earthquakes_page.png)
